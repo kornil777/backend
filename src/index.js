@@ -1,5 +1,5 @@
 const http = require('http');
-const { getUsers } = require('../src/modules/readUsers');
+const { getUsers } = require('./modules/users');
 
 const PORT = process.env.PORT || 3003;
 const HOST = '127.0.0.1';
